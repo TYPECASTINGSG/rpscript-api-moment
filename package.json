@@ -1,5 +1,5 @@
 {
-  "name": "rpscript-api-moment",
+  "name": "@typecasting/rpscript-api-moment",
   "version": "0.1.1",
   "description": "RPScript API for moment",
   "keywords": [
@@ -21,12 +21,11 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "test": "mocha -r ts-node/register test/**.ts",
-    "publish": "tsc && npm publish"
+    "test": "mocha -r ts-node/register test/**.ts"
   },
   "dependencies": {
     "moment": "^2.22.2",
-    "rpscript-interface": "^0.5.3"
+    "rpscript-interface": "0.6.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",

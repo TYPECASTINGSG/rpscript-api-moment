@@ -1,12 +1,10 @@
-/**
- * @module Moment
- */
-
 import moment from 'moment';
 import {RpsContext,RpsModule,rpsAction} from 'rpscript-interface';
 
 
-
+/** Moment Module
+ * @namespace Moment
+*/
 @RpsModule("moment")
 export default class RPSMoment {
 
